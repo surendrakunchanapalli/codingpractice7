@@ -1,0 +1,12 @@
+GET http://localhost:3100/players/
+####
+
+GET http://localhost:3100/players/4
+#####
+
+PUT http://localhost:3100/players/4
+Content-Type: application/json
+
+{
+  "playerName": "Raju"
+}
